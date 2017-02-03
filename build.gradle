@@ -1,0 +1,16 @@
+group 'uk.org.medworth'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework:spring-context:4.3.6.RELEASE'
+    runtime 'org.apache.logging.log4j:log4j-core:2.7'
+    runtime 'org.apache.logging.log4j:log4j-jcl:2.7'
+}
